@@ -166,7 +166,7 @@ export default function AreaFaqSection({ areaName, cityName, faqs }) {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="tel:+917303771900"
+              href="tel:+919024063025"
               className="inline-flex items-center justify-center gap-2 bg-[var(--brand-primary,#0d6efd)] text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-md shadow-blue-100 hover:shadow-lg hover:scale-105 transition-all duration-200"
               aria-label="Call QuickHomeDoctor"
             >
@@ -176,7 +176,7 @@ export default function AreaFaqSection({ areaName, cityName, faqs }) {
               Call Now
             </a>
             <a
-              href="https://wa.me/917303771900"
+              href="https://wa.me/919024063025"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white border-2 border-green-500 text-green-600 font-bold text-sm px-6 py-2.5 rounded-full hover:bg-green-50 hover:scale-105 transition-all duration-200"

@@ -145,7 +145,7 @@ const STEPS = [
             </a>
   
             <a
-              href="tel:+917303771900"
+              href="tel:+919024063025"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white border-2 border-[var(--brand-primary,#0d6efd)] text-[var(--brand-primary,#0d6efd)] font-bold text-sm px-7 py-3 rounded-full hover:bg-blue-50 hover:scale-105 transition-all duration-200"
               aria-label="Call QuickHomeDoctor now"
             >

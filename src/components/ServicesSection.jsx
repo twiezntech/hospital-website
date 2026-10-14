@@ -106,13 +106,13 @@ export default function ServicesSection({ cityName = "Delhi NCR", citySlug }) {
           </p>
           <div className="flex flex-row gap-3 justify-center">
             <a
-              href="tel:+917303771900"
+              href="tel:+919024063025"
               className="inline-flex items-center gap-2 px-6 py-3 bg-brand-primary hover:bg-brand-primary-700 text-white font-semibold rounded-xl text-sm transition-all duration-200 hover:scale-105"
             >
               Call Now
             </a>
             <a
-              href="https://wa.me/917303771900"
+              href="https://wa.me/919024063025"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl text-sm transition-all duration-200 hover:scale-105"

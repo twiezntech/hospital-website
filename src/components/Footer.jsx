@@ -48,8 +48,8 @@ export default function Footer() {
                                 <FiPhone className="text-[#0f706b]" size={20} />
                             </div>
                             <span className="text-gray-700 text-sm group-hover:text-[#0f706b] transition">
-                                <a href="tel:+917303771900">
-                                    +91 7303771900
+                                <a href="tel:+919024063025">
+                                    +91 9024063025
                                 </a>
                             </span>
                         </div>

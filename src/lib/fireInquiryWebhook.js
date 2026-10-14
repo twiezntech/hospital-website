@@ -1,3 +1,5 @@
+import { WHATSAPP_WEBHOOK_ENABLED } from "@/constant";
+
 /**
  * Notifies the WhatsApp workflows (Zoepact) about a new lead.
  *
@@ -29,6 +31,8 @@
  * @returns {Promise<boolean>} true when the route accepted the lead. Never rejects.
  */
 export async function fireInquiryWebhook(lead) {
+  if (!WHATSAPP_WEBHOOK_ENABLED) return false;
+
   const ENDPOINT = "/api/webhook/inquiry";
   const body = JSON.stringify({ type: "inquiry", ...lead });
 

@@ -84,7 +84,7 @@ export default function ThankYouPage() {
 
                                 <div className="flex flex-col gap-3 pt-2 sm:flex-row">
                                     <a
-                                        href="tel:+917303771900"
+                                        href="tel:+919024063025"
                                         className="inline-flex items-center justify-center gap-2 rounded-full bg-[#C26418] px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-[#ab5816]"
                                     >
                                         <span className="text-base leading-none">•</span>
@@ -155,10 +155,10 @@ export default function ThankYouPage() {
                                     If the patient needs immediate support, please call us now for a faster response.
                                 </p>
                                 <a
-                                    href="tel:+917303771900"
+                                    href="tel:+919024063025"
                                     className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-white"
                                 >
-                                    +91 7303771900
+                                    +91 9024063025
                                     <span aria-hidden="true">→</span>
                                 </a>
                             </div>

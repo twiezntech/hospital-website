@@ -95,11 +95,11 @@ export default function AreaServicesSection({ areaName, cityName }) {
             Book Home Visit
           </a>
           <a
-            href="tel:+917303771900"
+            href="tel:+919024063025"
             className="inline-flex items-center justify-center gap-2 border-2 border-[#064E53]/20 hover:border-[#064E53] text-[#064E53] font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-200"
           >
             <PhoneIcon />
-            Call Now 7303771900
+            Call Now 9024063025
           </a>
         </div>
       </div>

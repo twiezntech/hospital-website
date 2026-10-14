@@ -29,8 +29,8 @@ export default function AnnouncementBar() {
           {/* LEFT */}
           <div className="flex items-center gap-1.5 sm:gap-3">
             <Phone className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 text-gray-600" />
-            <a href="tel:+917303771900" className="text-gray-800 font-semibold text-lg sm:text-sm md:text-[23px]">
-              +91 7303771900
+            <a href="tel:+919024063025" className="text-gray-800 font-semibold text-lg sm:text-sm md:text-[23px]">
+              +91 9024063025
             </a>
             <span className="hidden md:inline-block text-gray-500 text-sm">| 24/7 Emergency</span>
           </div>

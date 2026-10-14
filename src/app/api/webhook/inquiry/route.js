@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { WHATSAPP_WEBHOOK_ENABLED } from "@/constant";
 
 // Run on the Node.js runtime so the outbound fetch and env vars are server-side only.
 export const runtime = "nodejs";
@@ -30,7 +31,7 @@ const WEBHOOK_GROUPS = {
  * (the template prints it), so the destination needs its own field.
  */
 const VENDOR_PHONE = normaliseMobile(
-  process.env.VENDOR_WHATSAPP_NUMBER || "7303771900"
+  process.env.VENDOR_WHATSAPP_NUMBER || "9024063025"
 );
 
 /**
@@ -96,6 +97,10 @@ async function deliver(label, url, payload) {
 }
 
 export async function POST(request) {
+  if (!WHATSAPP_WEBHOOK_ENABLED) {
+    return NextResponse.json({ ok: false, error: "whatsapp_disabled" }, { status: 503 });
+  }
+
   let data;
   try {
     data = await request.json();

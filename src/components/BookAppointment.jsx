@@ -280,7 +280,7 @@ export default function BookAppointment({ service, city }) {
           </motion.div>
 
           <Link
-            href="https://wa.me/917303771900"
+            href="https://wa.me/919024063025"
             target="_blank"
             className="bg-brand-secondary text-white mt-6 px-8 py-3 rounded-full font-semibold shadow-md transition flex items-center gap-2"
           >

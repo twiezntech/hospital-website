@@ -128,7 +128,7 @@ export default function PrivacyPolicyPage() {
                 </h2>
                 <p className="text-gray-700">
                     📧 Email: quickhomedoctor@gmail.com <br />
-                    📞 Phone: <a href="tel:+917303771900">+91-7303771900</a>
+                    📞 Phone: <a href="tel:+919024063025">+91-9024063025</a>
                 </p>
             </section>
             <Footer />

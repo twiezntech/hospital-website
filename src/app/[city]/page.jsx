@@ -91,7 +91,7 @@ function CityJsonLd({ cityData }) {
     name: `QuickHomeDoctor — ${cityData.name}`,
     description: cityData.description,
     url: `https://quickhomedoctor.com/${cityData.slug}`,
-    telephone: "+91-XXXXXXXXXX", // ← replace with real number
+    telephone: "+91-9024063025",
     areaServed: cityData.areas.map((area) => ({
       "@type": "Place",
       name: `${area}, ${cityData.name}`,

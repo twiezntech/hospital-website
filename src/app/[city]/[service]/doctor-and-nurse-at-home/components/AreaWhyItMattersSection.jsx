@@ -102,7 +102,7 @@ export default function AreaWhyItMattersSection({ areaName, cityName, data }) {
                 Book a home visit in {areaName} in immediately, no waiting, no queues.
               </p>
               <a
-                href="tel:+917303771900"
+                href="tel:+919024063025"
                 className="inline-flex items-center justify-center gap-2 bg-white text-[var(--brand-primary,#0d6efd)] font-bold text-sm px-5 py-2.5 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-200 w-full"
                 aria-label={`Call QuickHomeDoctor for home visit in ${areaName}`}
               >

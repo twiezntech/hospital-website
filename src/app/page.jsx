@@ -33,7 +33,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
         {/* CALL NOW */}
         <a
-          href="tel:+917303771900"
+          href="tel:+919024063025"
           className="w-full sm:w-auto text-center bg-brand-secondary text-white px-6 py-3 rounded-xl font-semibold transition duration-300"
         >
           Call Now
@@ -41,7 +41,7 @@ export default function Home() {
 
         {/* WHATSAPP */}
         <a
-          href="https://wa.me/917303771900"
+          href="https://wa.me/919024063025"
           target="_blank"
           className="w-full sm:w-auto text-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl font-semibold transition duration-300"
         >

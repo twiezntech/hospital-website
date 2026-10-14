@@ -100,7 +100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               logo: "https://quickhomedoctor.com/logo.ico",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+917303771900",
+                telephone: "+919024063025",
                 contactType: "customer support",
               },
             }),
@@ -116,7 +116,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "@type": "MedicalBusiness",
               name: "Quick Home Doctor",
               url: "https://quickhomedoctor.com",
-              telephone: "+91-7303771900",
+              telephone: "+91-9024063025",
               areaServed: "Delhi NCR",
               address: {
                 "@type": "PostalAddress",
@@ -134,7 +134,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "@context": "https://schema.org",
               "@type": "MedicalBusiness",
               name: "Quick Home Doctor",
-              telephone: "+917303771900",
+              telephone: "+919024063025",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Delhi NCR",

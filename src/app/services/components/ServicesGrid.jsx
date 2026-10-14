@@ -157,14 +157,14 @@ export default function ServicesGrid() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href="tel:+917303771900"
+                  href="tel:+919024063025"
                   className="inline-flex items-center gap-2 rounded-2xl bg-brand-primary px-6 py-3 text-sm font-semibold text-white transition hover:scale-[1.02] hover:shadow-lg"
                 >
                   <FaPhoneAlt />
                   Call Now
                 </a>
                 <a
-                  href="https://wa.me/917303771900"
+                  href="https://wa.me/919024063025"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-2xl bg-brand-secondary px-6 py-3 text-sm font-semibold text-white transition hover:scale-[1.02] hover:shadow-lg"
@@ -306,7 +306,7 @@ export default function ServicesGrid() {
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <a
-              href="tel:+917303771900"
+              href="tel:+919024063025"
               className="inline-flex items-center gap-2 rounded-2xl bg-brand-primary px-6 py-3 text-sm font-semibold text-white transition hover:scale-[1.02]"
             >
               <FaPhoneAlt />

@@ -44,14 +44,14 @@ export default function ServiceIntroSection({ city, service }) {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-3">
               <a
-                href="tel:+917303771900"
+                href="tel:+919024063025"
                 className="inline-flex items-center gap-2 bg-[#c26418] hover:bg-[#a8531a] text-white font-bold text-sm px-6 py-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-200"
               >
                 <Phone className="w-4 h-4" />
                 Call Now
               </a>
               <a
-                href="https://wa.me/917303771900"
+                href="https://wa.me/919024063025"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1faa54] text-white font-bold text-sm px-6 py-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-200"

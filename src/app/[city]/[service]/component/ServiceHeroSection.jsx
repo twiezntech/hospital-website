@@ -142,7 +142,7 @@ export default function ServiceHeroSection({ city, service }) {
                Contact Us
               </a>
               <a
-                href="tel:+917303771900"
+                href="tel:+919024063025"
                 className="inline-flex items-center gap-2 border-2 border-gray-300 hover:border-gray-400 text-gray-700 font-bold text-sm sm:text-base px-7 py-3.5 rounded-lg hover:scale-105 active:scale-95 transition-all duration-200"
               >
                 <Phone className="w-4 h-4" />
@@ -248,11 +248,11 @@ export default function ServiceHeroSection({ city, service }) {
                   to confirm your visit in {service.name}.
                 </p>
                 <a
-                  href="tel:+917303771900"
+                  href="tel:+919024063025"
                   className="mt-5 inline-flex items-center gap-2 bg-teal-600 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-teal-700 transition"
                 >
                   <PhoneIcon />
-                  Call Now: +91 73037 71900
+                  Call Now: +91 90240 63025
                 </a>
               </div>
             )}
