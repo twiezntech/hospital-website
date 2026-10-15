@@ -6,6 +6,7 @@ import { replacePlaceholders as rp } from "@/utils/replacePlaceholders";
 import { areaContent } from "@/data/areaContent";
 import emailjs from "@emailjs/browser";
 import { ENQUIRY_TEMPLATE_ID, PUBLIC_KEY, SERVICE_ID } from "@/constant";
+import { leadEmailParams } from "@/lib/leadEmailParams";
 import { useRouter } from "next/navigation";
 import { fireInquiryWebhook } from "@/lib/fireInquiryWebhook";
 
@@ -47,15 +48,13 @@ export default function AreaHeroSection({ areaName, cityName, citySlug }) {
         .send(
           SERVICE_ID,
           ENQUIRY_TEMPLATE_ID,
-          {
-            patient_name: name.trim(),
+          leadEmailParams({
+            name,
             mobile: phone,
-            time: new Date().toLocaleString("en-IN", {
-              dateStyle: "medium",
-              timeStyle: "short",
-            }),
+            city: cityName,
+            area: areaName,
             page: `Doctor & Nurse at Home – ${areaName}, ${cityName}`,
-          },
+          }),
           PUBLIC_KEY
         )
         .catch((err) => {

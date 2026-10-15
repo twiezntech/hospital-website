@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Phone, ChevronRight } from "lucide-react";
 import { ENQUIRY_TEMPLATE_ID, PUBLIC_KEY, SERVICE_ID } from "@/constant";
+import { leadEmailParams } from "@/lib/leadEmailParams";
 import emailjs from "@emailjs/browser";
 import { PhoneIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -45,11 +46,12 @@ export default function ServiceHeroSection({ city, service }) {
         .send(
           SERVICE_ID,
           ENQUIRY_TEMPLATE_ID,
-          {
-            patient_name: name,
+          leadEmailParams({
+            name,
             mobile: phone,
-            time: new Date().toLocaleString(),
-          },
+            city: city?.name,
+            page: `Service page – ${service?.name || ""}${city?.name ? `, ${city.name}` : ""}`,
+          }),
           PUBLIC_KEY
         )
         .catch((err) => {

@@ -127,7 +127,7 @@ export default function PrivacyPolicyPage() {
                     7. Contact Information
                 </h2>
                 <p className="text-gray-700">
-                    📧 Email: quickhomedoctor@gmail.com <br />
+                    📧 Email: nidhi.twiezn@gmail.com <br />
                     📞 Phone: <a href="tel:+919024063025">+91-9024063025</a>
                 </p>
             </section>

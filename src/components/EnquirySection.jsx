@@ -3,7 +3,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { SERVICE_ID, PUBLIC_KEY, TEMPLATE_ID,  } from "@/constant";
+import { SERVICE_ID, PUBLIC_KEY, ENQUIRY_TEMPLATE_ID } from "@/constant";
+import { leadEmailParams } from "@/lib/leadEmailParams";
 import { useRouter } from "next/navigation";
 import { fireInquiryWebhook } from "@/lib/fireInquiryWebhook";
 
@@ -42,12 +43,12 @@ const router = useRouter()
         const email = emailjs
             .send(
                 SERVICE_ID,
-                TEMPLATE_ID,
-                {
-                    patient_name: form.name,
+                ENQUIRY_TEMPLATE_ID,
+                leadEmailParams({
+                    ...form,
                     mobile: `${form.countryCode} ${form.mobile}`,
-                    email: form.email,
-                },
+                    page: "Enquiry popup",
+                }),
                 PUBLIC_KEY
             )
             .catch((err) => {

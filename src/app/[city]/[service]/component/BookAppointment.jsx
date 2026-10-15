@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { PUBLIC_KEY, SERVICE_ID, TEMPLATE_ID } from "@/constant";
+import { leadEmailParams } from "@/lib/leadEmailParams";
 import { useRouter } from "next/navigation";
 import { fireInquiryWebhook } from "@/lib/fireInquiryWebhook";
 
@@ -100,16 +101,16 @@ export default function BookAppointment({ city, areaName }) {
       minute: "2-digit",
     });
 
-    const templateParams = {
-      patient_name: form.name.trim(),
+    const templateParams = leadEmailParams({
+      name: form.name,
       mobile: form.mobile,
-      email: form.email || "Not provided",
-      preferred_time: form.slot,
-      message: form.message.trim() || "No message",
-      time: now,
-      city: city?.name || "",
-      area: areaName || "",
-    };
+      email: form.email,
+      timeSlot: form.slot,
+      message: form.message,
+      city: city?.name,
+      area: areaName,
+      page: `Book Appointment${areaName ? ` – ${areaName}` : ""}${city?.name ? `, ${city.name}` : ""}`,
+    });
 
     // The WhatsApp webhook runs alongside EmailJS, not after it — an EmailJS
     // outage must not swallow the lead.

@@ -74,7 +74,7 @@ export default function ContactUsPage() {
                         <p className="mb-4">
                             📧 <strong>Email:</strong>{" "}
                             <a
-                                href="mailto:quickhomedoctor@gmail.com"
+                                href="mailto:nidhi.twiezn@gmail.com"
                                 className="text-blue-600"
                             >
                                 Email Us

@@ -60,10 +60,10 @@ export default function Footer() {
                             </div>
                             <span className="text-gray-700 text-sm group-hover:text-[#0f706b] transition">
                                 <a
-                                 href="mailto:quickhomedoctor@gmail.com"
+                                 href="mailto:nidhi.twiezn@gmail.com"
                 className="text-gray-700 text-sm group-hover:text-[#0f706b] transition"
               >
-                quickhomedoctor&#64;gmail&#46;com
+                nidhi.twiezn&#64;gmail&#46;com
               </a>
                             </span>
                         </div>

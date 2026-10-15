@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import emailjs from "@emailjs/browser";
 import { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } from "@/constant";
 import { fireInquiryWebhook } from "@/lib/fireInquiryWebhook";
+import { leadEmailParams } from "@/lib/leadEmailParams";
 
 export default function ContactForm() {
   const router = useRouter();
@@ -51,11 +52,7 @@ export default function ContactForm() {
     const email = emailjs.send(
       SERVICE_ID,
       TEMPLATE_ID,
-      {
-        patient_name: form.name,
-        mobile: form.mobile,
-        email: form.email,
-      },
+      leadEmailParams({ ...form, page: "Contact Us page" }),
       PUBLIC_KEY
     );
 

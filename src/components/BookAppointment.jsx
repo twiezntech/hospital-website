@@ -5,14 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import {
-  SERVICE_ID,
-  BOOK_APPOINTMENT_TEMPLATE_ID,
-  PUBLIC_KEY,
-  ENQUIRY_TEMPLATE_ID,
-} from "@/constant";
+import { SERVICE_ID, PUBLIC_KEY, TEMPLATE_ID } from "@/constant";
 import { useRouter } from "next/navigation";
 import { fireInquiryWebhook } from "@/lib/fireInquiryWebhook";
+import { leadEmailParams } from "@/lib/leadEmailParams";
 
 export default function BookAppointment({ service, city }) {
   const [form, setForm] = useState({
@@ -64,14 +60,12 @@ export default function BookAppointment({ service, city }) {
     // Send data on email Appoitment data
     const email = emailjs.send(
       SERVICE_ID,
-      ENQUIRY_TEMPLATE_ID,
-      {
-        patient_name: form.name,
-        mobile: form.mobile,
-        email: form.email,
-        time_slot: form.timeSlot,
-        message: form.message,
-      },
+      TEMPLATE_ID,
+      leadEmailParams({
+        ...form,
+        city: city?.name,
+        page: `Book Appointment${service?.name ? ` – ${service.name}` : ""}`,
+      }),
       PUBLIC_KEY
     );
 
