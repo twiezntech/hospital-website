@@ -131,7 +131,7 @@ export default function AreaWhyChooseSection({ areaName, cityName, data }) {
             Ready to book a home visit?
           </p>
           <a
-            href="tel:+919024063025"
+            href="tel:+919310388609"
             className="inline-flex items-center gap-2 bg-white text-[var(--brand-primary,#0d6efd)] font-bold text-sm px-6 py-2.5 rounded-full shadow hover:shadow-md hover:scale-105 transition-all duration-200"
             aria-label="Call QuickHomeDoctor now"
           >
@@ -139,7 +139,7 @@ export default function AreaWhyChooseSection({ areaName, cityName, data }) {
             <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4" aria-hidden="true">
               <path d="M2 3a2 2 0 0 1 2-2h2.153a2 2 0 0 1 1.94 1.515l.547 2.734a2 2 0 0 1-.45 1.732l-.7.7a11.042 11.042 0 0 0 4.829 4.829l.7-.7a2 2 0 0 1 1.732-.45l2.734.547A2 2 0 0 1 19 13.847V16a2 2 0 0 1-2 2C8.163 18 2 11.837 2 4V3z"/>
             </svg>
-            Call +91 90240 63025
+            Call +91 93103 88609
           </a>
         </div>
 

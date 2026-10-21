@@ -151,7 +151,7 @@ export default function AreaHeroSection({ areaName, cityName, citySlug }) {
                 Book Home Visit
               </a>
               <a
-                href="tel:+919024063025"
+                href="tel:+919310388609"
                 className="inline-flex items-center gap-2 border-2 border-gray-200 hover:border-teal-500 text-gray-700 hover:text-teal-600 font-semibold text-sm px-6 py-3.5 rounded-xl transition-all duration-200"
               >
                 <PhoneIcon className="text-gray-400" />
@@ -246,11 +246,11 @@ export default function AreaHeroSection({ areaName, cityName, citySlug }) {
                     to confirm your visit in {areaName}.
                   </p>
                   <a
-                    href="tel:+919024063025"
+                    href="tel:+919310388609"
                     className="mt-5 inline-flex items-center gap-2 bg-teal-600 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-teal-700 transition"
                   >
                     <PhoneIcon />
-                    Call Now: +91 90240 63025
+                    Call Now: +91 93103 88609
                   </a>
                 </div>
               )}

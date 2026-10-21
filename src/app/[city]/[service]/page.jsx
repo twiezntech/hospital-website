@@ -92,7 +92,7 @@ function JsonLd({ city, service }) {
     name: `QuickHomeDoctor — ${service.name} in ${city.name}`,
     description: service.longDesc,
     url,
-    telephone: "+91-9024063025",
+    telephone: "+91-9310388609",
     areaServed: city.areas.map((area) => ({
       "@type": "Place",
       name: `${area}, ${city.name}`,

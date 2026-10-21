@@ -66,8 +66,8 @@ export default function ContactUsPage() {
 
                         <p className="mb-4">
                             📞 <strong>Phone:</strong>{" "}
-                            <a href="tel:+919024063025" className="text-blue-600">
-                                +91-9024063025
+                            <a href="tel:+919310388609" className="text-blue-600">
+                                +91-9310388609
                             </a>
                         </p>
 

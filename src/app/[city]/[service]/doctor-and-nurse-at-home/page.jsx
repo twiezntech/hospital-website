@@ -142,7 +142,7 @@ function JsonLd({ cityData, areaName, areaSlug }) {
       name: `QuickHomeDoctor — Doctor & Nurse at Home in ${areaName}, ${cityName}`,
       description: `Certified MBBS/MD doctors and trained nurses for home visits in ${areaName}, ${cityName} within 15–30 min. Available 24/7.`,
       url,
-      telephone: "+91-9024063025",
+      telephone: "+91-9310388609",
       priceRange: "₹₹",
       areaServed: [{ "@type": "Place", name: `${areaName}, ${cityName}` }],
       address: {

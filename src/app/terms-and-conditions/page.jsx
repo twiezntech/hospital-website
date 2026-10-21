@@ -119,8 +119,8 @@ export default function TermsAndConditionsPage() {
                     </a>
                     <br />
                     📞 Phone:{" "}
-                    <a href="tel:+919024063025">
-                        +91-9024063025
+                    <a href="tel:+919310388609">
+                        +91-9310388609
                     </a>
                 </p>
             </section>

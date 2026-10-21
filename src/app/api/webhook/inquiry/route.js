@@ -31,7 +31,7 @@ const WEBHOOK_GROUPS = {
  * (the template prints it), so the destination needs its own field.
  */
 const VENDOR_PHONE = normaliseMobile(
-  process.env.VENDOR_WHATSAPP_NUMBER || "9024063025"
+  process.env.VENDOR_WHATSAPP_NUMBER || "9310388609"
 );
 
 /**

@@ -125,7 +125,7 @@ export const areaContent = {
         },
         {
          question: "Which localities in {{area.name}} do you cover?",
-         answer: "We cover all major and minor locations in {{area.name}}. Call +91 9024063025 to confirm your specific location within {{area.name}}."
+         answer: "We cover all major and minor locations in {{area.name}}. Call +91 9310388609 to confirm your specific location within {{area.name}}."
         },
         {
          question: "Can lab tests be done at home in {{area.name}}?",

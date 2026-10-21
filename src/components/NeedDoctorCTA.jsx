@@ -31,7 +31,7 @@ export default function NeedDoctorCTA({ cityName = "", areaName = "" }) {
             {/* CTA Buttons */}
             <div className="flex flex-row gap-3 justify-center flex-wrap">
               <a
-                href="tel:+919024063025"
+                href="tel:+919310388609"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-brand-secondary text-white font-bold rounded-full text-sm sm:text-base shadow-lg shadow-red-100 transition-all duration-200 hover:scale-105 active:scale-95"
               >
                 <svg
@@ -45,7 +45,7 @@ export default function NeedDoctorCTA({ cityName = "", areaName = "" }) {
               </a>
 
               <a
-                href="https://wa.me/919024063025"
+                href="https://wa.me/919310388609"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white hover:bg-gray-50 text-gray-800 font-bold rounded-full text-sm sm:text-base border border-gray-200 shadow-sm transition-all duration-200 hover:scale-105 active:scale-95"

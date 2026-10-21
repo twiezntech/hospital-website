@@ -151,7 +151,7 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center gap-2">
               {/* Call Now */}
               <a
-                href="tel:+919024063025"
+                href="tel:+919310388609"
                 className="flex items-center gap-2 px-4 py-2.5 text-[#064E53] font-semibold border border-gray-200 rounded-xl transition text-sm"
               >
                 <Phone className="w-4 h-4" />
@@ -170,7 +170,7 @@ export default function Navbar() {
             <div className="flex lg:hidden items-center gap-2">
               {/* Call icon — mobile pe sirf icon dikhega */}
               <a
-                href="tel:+919024063025"
+                href="tel:+919310388609"
                 className="flex items-center justify-center w-9 h-9 bg-brand-secondary text-white rounded-lg"
               >
                 <Phone className="w-4 h-4" />
@@ -262,12 +262,12 @@ export default function Navbar() {
           {/* Mobile — Book Now button at bottom of menu */}
           <div className="pt-2 pb-3 px-3">
             <a
-              href="tel:+919024063025"
+              href="tel:+919310388609"
               className="flex items-center justify-center gap-2 w-full py-3 bg-brand-secondary text-white font-semibold rounded-xl text-sm"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <Phone className="w-4 h-4" />
-              Book Home Visit — +91 90240 63025
+              Book Home Visit — +91 93103 88609
             </a>
           </div>
         </motion.div>

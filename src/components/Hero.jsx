@@ -97,13 +97,13 @@ export default function Hero({ cityName = "Delhi" }) {
           className="flex flex-row gap-3 justify-center"
         >
           <a
-            href="tel:+919024063025"
+            href="tel:+919310388609"
             className="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-8 sm:py-4 bg-[#064E53] text-white font-bold rounded-xl shadow-2xl text-sm sm:text-lg transition-all duration-200 hover:scale-105 active:scale-95"
           >
             Call Now
           </a>
           <a
-            href="https://wa.me/919024063025"
+            href="https://wa.me/919310388609"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-8 sm:py-4 bg-white/15 hover:bg-white/25 backdrop-blur-sm border-2 border-white/50 text-white font-bold rounded-xl shadow-2xl text-sm sm:text-lg transition-all duration-200 hover:scale-105 active:scale-95"
@@ -121,10 +121,10 @@ export default function Hero({ cityName = "Delhi" }) {
         >
           Or call directly:{" "}
           <a
-            href="tel:+919024063025"
+            href="tel:+919310388609"
             className="text-white/90 font-semibold underline underline-offset-2 hover:text-white"
           >
-            +91 9024063025
+            +91 9310388609
           </a>{" "}
           · We respond immediately
         </motion.p>

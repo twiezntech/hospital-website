@@ -128,7 +128,7 @@ export default function PrivacyPolicyPage() {
                 </h2>
                 <p className="text-gray-700">
                     📧 Email: nidhi.twiezn@gmail.com <br />
-                    📞 Phone: <a href="tel:+919024063025">+91-9024063025</a>
+                    📞 Phone: <a href="tel:+919310388609">+91-9310388609</a>
                 </p>
             </section>
             <Footer />
